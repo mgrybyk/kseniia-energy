@@ -1,11 +1,9 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="flex flex-wrap">
+  <h1>Ксения Крутенко - Энерготерапевт</h1>
+  <div class="flex flex-col-reverse flex-wrap">
     <div class="about mr-5 p-2">
-      <h1>Ксения Крутенко - Энерготерапевт</h1>
       <section class="mb-10">
         <h2>Я это Я</h2>
         <p>Делаю что делаю</p>
@@ -16,64 +14,67 @@ import { ref } from 'vue'
         <p>Более подробно и посмотреть рассписание можно в моём телеграм канале:</p>
         <div>
           <a
-            tabindex="1"
-            href="https://t.me/@telegram_channel"
+            tabindex="0"
+            href="https://t.me/@blessing936energy"
             target="_blank"
             rel="noopener"
-            class="social-button mr-2 inline-block rounded px-2 py-1 leading-10 text-white shadow-md transition duration-150 ease-in-out active:shadow-lg focus:shadow-lg hover:shadow-lg focus:outline-none focus:ring-0"
+            class="social-button mb-2 mr-2 inline-block rounded-md px-2 py-1 leading-10 text-white shadow-md transition duration-150 ease-in-out active:shadow-lg focus:shadow-lg hover:shadow-lg focus:outline-none focus:ring-0"
             style="background-color: #0088cc"
           >
             <span class="i-fa6-brands:telegram"></span>
-            @telegram_channel
+            <span>@blessing936energy</span>
           </a>
 
           <!-- Youtube -->
           <a
-            href="about:blank"
-            target="_blank"
-            rel="noopener"
-            class="disabled social-button mr-2 inline-block rounded px-2 py-1 leading-10 text-white shadow-md transition duration-150 ease-in-out active:shadow-lg focus:shadow-lg hover:shadow-lg focus:outline-none focus:ring-0"
-            style="background-color: #ff0000"
+            class="social-button disabled mb-2 mr-2 inline-block select-none rounded-md px-2 py-1 leading-10 text-white shadow-md transition duration-150 ease-in-out active:shadow-lg focus:shadow-lg hover:shadow-lg focus:outline-none focus:ring-0"
+            style="background-color: #666666"
           >
             <span class="i-fa6-brands:youtube"></span>
-            Скоро будет!
+            <span>Скоро будет!</span>
           </a>
         </div>
       </section>
 
       <section class="inmb-10dividual">
         <h3>Индивидуальные сессии</h3>
-        <!-- <p>Записаться:</p> -->
+        <p>Записаться:</p>
         <p>
           <!-- Telegram Button -->
           <a
-            tabindex="2"
+            tabindex="0"
             href="https://t.me/@blessing936"
             target="_blank"
             rel="noopener"
-            class="social-button mr-2 inline-block rounded px-2 py-1 leading-10 text-white shadow-md transition duration-250 ease-in-out focus:shadow-xl hover:shadow-xl hover:ring-1 hover:ring-inset hover:saturate-120"
+            class="social-button mb-2 mr-2 inline-block rounded-md px-2 py-1 leading-10 text-white shadow-md transition duration-250 ease-in-out focus:shadow-xl hover:shadow-xl hover:ring-1 hover:ring-inset hover:saturate-120"
             style="background-color: #0088cc"
           >
             <span class="i-fa6-brands:telegram"></span>
-            @blessing936
+            <span>@blessing936</span>
           </a>
 
           <!-- Instagram Button -->
           <a
-            tabindex="3"
-            href="https://www.instagram.com/todo"
+            tabindex="0"
+            href="https://www.instagram.com/ksu_cosmicgirl"
             target="_blank"
             rel="noopener"
-            class="social-button mr-2 inline-block rounded px-2 py-1 leading-10 text-white shadow-md transition-all duration-150 ease-in-out focus:shadow-xl hover:shadow-xl hover:ring-1 hover:ring-inset"
+            class="social-button mb-2 mr-2 inline-block rounded-md px-2 py-1 leading-10 text-white shadow-md transition-all duration-150 ease-in-out focus:shadow-xl hover:shadow-xl hover:ring-1 hover:ring-inset"
             style="background-color: #c13584"
           >
             <span class="i-fa6-brands:instagram"></span>
-            @todo
+            <span>@ksu_cosmicgirl</span>
           </a>
         </p>
       </section>
     </div>
-    <img src="/img/kseniia.png" class="profile-img p2" />
+    <img
+      src="/img/kseniia.png"
+      class="profile-img p2"
+      alt="Ксения Крутенко"
+      width="300"
+      height="507"
+    />
   </div>
 </template>
 
@@ -101,6 +102,5 @@ img.profile-img {
 
 [class*='hover:'].disabled {
   cursor: not-allowed;
-  opacity: 0.5;
 }
 </style>
