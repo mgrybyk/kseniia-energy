@@ -15,7 +15,7 @@
         <div>
           <a
             tabindex="0"
-            href="https://t.me/@blessing936energy"
+            href="https://t.me/blessing936energy"
             target="_blank"
             rel="noopener"
             class="social-button mb-2 mr-2 inline-block rounded-md px-2 py-1 leading-10 text-white shadow-md transition duration-150 ease-in-out active:shadow-lg focus:shadow-lg hover:shadow-lg focus:outline-none focus:ring-0"
@@ -43,7 +43,7 @@
           <!-- Telegram Button -->
           <a
             tabindex="0"
-            href="https://t.me/@blessing936"
+            href="https://t.me/blessing936"
             target="_blank"
             rel="noopener"
             class="social-button mb-2 mr-2 inline-block rounded-md px-2 py-1 leading-10 text-white shadow-md transition duration-250 ease-in-out focus:shadow-xl hover:shadow-xl hover:ring-1 hover:ring-inset hover:saturate-120"
