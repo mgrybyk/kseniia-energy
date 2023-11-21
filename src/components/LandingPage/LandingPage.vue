@@ -45,7 +45,7 @@
         src="/img/kseniia.png"
         class="profile-img"
         alt="Ксения Крутенко"
-        width="173"
+        width="175"
         height="300"
       />
     </div>
