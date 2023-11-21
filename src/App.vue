@@ -9,4 +9,9 @@ import LandingPage from './components/LandingPage/LandingPage.vue'
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  margin: 0 auto;
+  max-width: 710px;
+}
+</style>
