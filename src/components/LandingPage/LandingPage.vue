@@ -2,7 +2,7 @@
 
 <template>
   <h1>Ксения Крутенко - Энерготерапевт</h1>
-  <div class="flex flex-col-reverse flex-wrap">
+  <div class="flex flex-wrap-reverse">
     <div class="about mr-5 p-2">
       <section class="mb-10">
         <h2>Я это Я</h2>
