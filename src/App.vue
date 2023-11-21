@@ -1,9 +1,10 @@
 <script setup lang="ts">
+import './assets/main.css'
 import LandingPage from './components/LandingPage/LandingPage.vue'
 </script>
 
 <template>
-  <main>
+  <main class="px-4 container">
     <LandingPage />
   </main>
 </template>
