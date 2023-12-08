@@ -13,5 +13,7 @@ import LandingPage from './components/LandingPage/LandingPage.vue'
 main {
   margin: 0 auto;
   max-width: 710px;
+  scroll-margin-top: 100vh;
+  scroll-margin-bottom: 100vh;
 }
 </style>
