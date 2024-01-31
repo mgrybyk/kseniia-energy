@@ -32,11 +32,15 @@
 
             <!-- Youtube -->
             <a
-              class="social-button disabled mb-2 mr-2 inline-block select-none rounded-3xl px-2 py-1 text-white leading-10 shadow-md transition duration-150 ease-in-out active:shadow-lg focus:shadow-lg hover:shadow-lg focus:outline-none focus:ring-0"
-              style="background-color: #666666"
+              tabindex="0"
+              href="https://www.youtube.com/@KseniiasUniverse"
+              target="_blank"
+              rel="noopener"
+              class="social-button mb-2 mr-2 inline-block select-none rounded-3xl px-2 py-1 text-white leading-10 shadow-md transition duration-150 ease-in-out active:shadow-lg focus:shadow-lg hover:shadow-lg focus:outline-none focus:ring-0"
+              style="background-color: #ff0000"
             >
               <span class="i-fa6-brands:youtube"></span>
-              <span>Скоро будет!</span>
+              <span>@KseniiasUniverse</span>
             </a>
           </div>
         </section>
